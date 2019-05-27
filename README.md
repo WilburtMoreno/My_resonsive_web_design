@@ -11,4 +11,4 @@ Every week i blindy pick one of the following category of webpage projects...
 
 * to be familiar and get advance at HTML and  CSS
 * to know the following tags, properties.
-* to get better at @media quries (responsive web pages)
+* to get better at @media queries (responsive web pages)
