@@ -1,0 +1,174 @@
+@font-face {
+    src: url(fonts/RobotoMono-Regular.ttf);
+    font-family: rob;
+}
+body {
+    margin:0;
+    padding: 0;
+    font-family: rob, arial, Helvetica, sans-serif;
+    background-image: url(img/sheet_music.jpg);
+
+    background-position: center;
+}
+
+/*** global ***/
+
+.containers {
+    padding: 15px 20px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #111;
+    overflow: hidden;
+    opacity: 0.9;   
+}
+.context {
+    color: #fff;
+    margin: 0;
+    padding: 0 20px;
+}
+ p {
+    color: #fff;
+    text-align: left;
+    margin:0;
+    padding: 30px;
+}
+.h3s {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+}
+.button {
+    color: #000;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+    background-color: #fff;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: black;
+    color: #fff;
+}
+.button:active {
+    color: #000;
+    background-color: #fff;
+} 
+
+/*** Header ***/
+
+header {
+    width: 100%;
+    background-color: #111;
+    border-bottom: 2px solid #fff;
+    min-width: 70px;
+}
+header #logo {
+    margin: 0;
+    padding: 0;  
+}
+header img {    
+    width: 125px;
+    border-radius: 50%;
+    display: inline;
+}
+header h5 {
+    color: #fff;
+    display: inline;
+    border-bottom: 1px solid #fff;
+    text-transform: uppercase;
+}
+
+/*** Article ***/
+
+#subject {
+    background-color: #111;
+}
+#subject h1 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+#subject img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+.button-wrapper {
+    margin: 20px auto 0 auto;
+    width: 190px;
+}
+
+/** Footer **/
+
+footer {
+    background-color: #111;
+    border-top: 2px solid #fff;
+    color: white;
+    display: absolute;
+    width: 100%;
+    padding-top: 10px;
+}
+footer p {
+    float: left;
+
+}
+footer ul {
+    float: right;
+    padding: 15px 0 0 0;
+}
+footer li {
+    list-style: none;
+    background-color: #fff;
+    display: inline;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+footer a {
+    color: black;
+}
+
+/** Media Queries **/
+
+@media only screen and (max-width: 376px) {
+   
+   .containers {
+    width: 100%; 
+    padding: 0;
+   }
+   .context {
+       padding: 0;
+   }
+   p {
+       padding: 10px;
+       line-height: 1.7em;
+       font-size: 13px;
+   }
+    header {
+        text-align: center;
+    }
+    header #logo {
+        display: block;
+    }
+    header h5 {
+    border-bottom:none;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    padding: 0 0 5px 0;
+    }
+    footer {
+        text-align: center;
+    }
+    footer p {
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
+    footer ul {
+        float: none;
+        margin: 0 ;
+        padding: 10px 0 0 0;
+    }
+}
+
+
