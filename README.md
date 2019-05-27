@@ -7,7 +7,7 @@ Every week i blindy pick one of the following category of webpage projects...
 * Documentation page
 * Portfolio
 
-# Reason for creating this challenge
+# Reasons for creating this challenge
 
 * to be familiar and get advance at HTML and  CSS
 * to know the following tags, properties.
