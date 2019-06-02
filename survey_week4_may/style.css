@@ -1,0 +1,139 @@
+
+body {
+    background-color: rgb(105, 110, 57);
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu';
+}
+/* Global */
+.container {
+    background-color: rgb(147, 155, 77);
+    width: 80%;
+    margin: 0 auto;  
+    padding: 0;
+    overflow: hidden;
+}
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 10px 20px;  
+    vertical-align: top;
+}
+.items {
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+    padding: 10px 20px;
+    vertical-align: middle;
+}
+.wrappers {
+    padding: 5px;
+}
+/* Header */
+header {
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    padding: 10px;
+}
+/* Form */
+form {
+    border-top: 1px solid #000; 
+    border-bottom: 1px solid #000;
+    background-color: rgb(147, 155, 77);
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+form .field-align {
+    width: 70%;
+}
+form ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+form li {
+    padding-bottom: 5px;
+}
+form #submit {
+    width: 80%;
+    padding: 11px 5px;
+    margin: 0;
+    text-align: right;
+}
+form button {
+    padding: 5px 10px;
+    margin: 0 20px 0 0;
+    border-radius: 5px;
+}
+/* Footer */
+footer {
+    margin: 0;
+    text-align: center;
+}
+footer h6 {  
+    display: inline-block;
+}
+footer ul {
+    display: inline-block;
+    list-style: none;
+}
+footer li {
+    display: inline;
+    text-align: center;
+    margin: 0 0 0 20px;
+}
+footer a {
+    color: #000;
+}
+@media only screen and (max-width: 412px) {
+    .container {
+        width: 100%;  
+        padding: 0;
+        margin: 0;  
+    }
+    form {
+        width: 100%;
+    }
+    form select {
+        width: 70%;
+    }
+    .wrappers {
+        padding: 0;
+    }
+    .labels {
+        display: block;
+        text-align: center;
+        width: 90%;
+    }
+    .items {
+        display: block;
+        text-align: center;
+        width: 90%;
+        padding: 10px 20px;
+        vertical-align: middle;
+    }
+    form #submit {
+        width: 100%;
+        padding: 11px 0;
+        text-align: center;
+    }
+    form button {
+        padding: 5px 10px;
+        margin: 0 ;
+        border-radius: 5px;
+    }
+    footer h6 {  
+        padding: 10px;
+        margin: 0;
+    }
+    footer ul {
+        display: block;
+        text-align: center;
+        padding: 5px 5px 5px 0;
+        margin: 0;
+    }
+}
